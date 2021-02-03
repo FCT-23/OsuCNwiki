@@ -174,7 +174,6 @@ _Tips2：数字键和 `F`键的变速可以叠加。_
 
 下列快捷键可在编辑器内随时使用。
 
-因为~~某M姓玩家不懂作图~~该部分涉及到作图方面的知识，故暂时没有翻译。
 
 | 快捷键 | 效果 |
 | :--- | :--- |
@@ -182,97 +181,97 @@ _Tips2：数字键和 `F`键的变速可以叠加。_
 | `V` | 跳至最后一个note或歌曲结尾处。 |
 | `X` | 从头播放。 |
 | `C` / `Space` | 暂停/播放。 |
-| `Left Arrow` / `Right Arrow` | Skip through the song. |
-| `Up Arrow` or `Down Arrow` | Skip between timing points. |
-| `Shift` + `Left Arrow` or `Shift` + `Right Arrow` | Skip through the song at 4x speed. |
-| `Ctrl` + `B` | Add a bookmark at the current timestamp. |
-| `Ctrl` + `Shift` + `B` | Remove the bookmark in the current timestamp. |
-| `Ctrl` + `Left/Right Arrow` | Jump to the previous/next bookmark. |
-| `Ctrl` + `L` | Revert to the last saved state \(partial\). This will reload the `.osu` and `.osb` files. |
-| `Ctrl` + `Shift` + `L` | Revert to the last saved state \(full\). This will reload everything. |
-| `Ctrl` + `O` | Opens the difficulty selection window. |
-| `Ctrl` + `S` | Save the beatmap in its current state. |
-| `Ctrl` + `N` | Prompt to remove all hit objects. |
-| `Ctrl` + `Up/Down Arrow` | Increase/decrease the playback speed by 25%. |
-| `Ctrl` + `Shift` + `Up/Down Arrow` | Increase/decrease the playback speed by 5%. |
-| `F1` | Switch to the [compose](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Compose) mode. |
-| `F2` | Switch to the [design](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Design) mode. |
-| `F3` | Switch to the [timing](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Timing) mode. |
-| `F4` | Open the [song setup](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Song_Setup) dialog. |
-| `F5` | Enter test mode. |
-| `F6` | Open the timing and control points dialog. |
-| `Ctrl` + `P` | Add an uninherited timing point at the current timestamp. If not in the timing mode, this will also open the timing and control points dialog. |
-| `Ctrl` + `Shift` + `P` | Add a inherited timing point at the current timestamp. This will also open the timing and control points dialog. |
-| `Ctrl` + `I` | Delete the current uninherited or inherited section. This will not work on first uninherited timing point. |
+| `左箭头` / `右箭头` | 按照当前细分的节拍向前/向后在歌曲中滚动。 |
+| `上箭头` / `下箭头` | 跳至上一个/下一个继承区间（绿线）。 |
+| `Shift` + `Left Arrow` or `Shift` + `Right Arrow` | 按照当前细分的节拍×4倍向前/向后在歌曲中移动。 |
+| `Ctrl` + `B` | 在当前时间点添加一个作图标记点。 |
+| `Ctrl` + `Shift` + `B` | 删除当前时间点上的作图标记点。 |
+| `Ctrl` + `左/右 箭头` | 调至上一个/下一个作图标记点。 |
+| `Ctrl` + `L` | 部分还原到上一次保存的状态。此操作会重载`.osu` 和 `.osb` 文件。 |
+| `Ctrl` + `Shift` + `L` | 部分还原到上一次保存的状态。此操作会重载所有内容。 |
+| `Ctrl` + `O` | 打开难度选择窗口。 |
+| `Ctrl` + `S` | 将地图图保存到当前状态。 |
+| `Ctrl` + `N` | 清楚当前难度的所有物件。 |
+| `Ctrl` + `Up/Down Arrow` | 增加/减少25%的播放速度。 |
+| `Ctrl` + `Shift` + `Up/Down Arrow` | 增加/减少5%的播放速度。 |
+| `F1` | 转到 [compose](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Compose) 模式。 |
+| `F2` | 转到 [design](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Design) 模式。 |
+| `F3` | 转到 [timing](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Timing) 模式。 |
+| `F4` | 打开 [song setup](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Song_Setup) 面板. |
+| `F5` | 进入测试模式（该模式下打图不是全屏模式，win7及以上系统会有输入延迟）。|
+| `F6` | 打开时间设置和时间点管理面板。 |
+| `Ctrl` + `P` | 在当前时间点添加timing（红线）区间点。如果当前不在timing模式，此操作也会打开时间设置和时间点管理面板。 |
+| `Ctrl` + `Shift` + `P` | 在当前时间点添加继承（绿线）区间点。此操作也会打开时间设置和时间点管理面板。 |
+| `Ctrl` + `I` | 删除在当前时间点的继承（绿线）区间点。此操作对第一个继承（绿线）区间点无效 |
 
-#### Mouse
+#### 鼠标
 
-| Shortcut | Action |
+| 快捷键 | 效果 |
 | :--- | :--- |
-| `Mouse Wheel Up/Down` | Seek forward/backward. |
-| `Shift` + `Mouse Wheel Up/Down` | Seek forward/backward at 4x. |
-| `Ctrl` + `Mouse Wheel Up/Down` | Adjust the snap divisor. |
-| `Alt` + `Mouse Wheel Up/Down` | Adjust the distance snapping multiplier when hovering over the playfield. Adjust the timeline zoom when hovering over the timeline. |
-| `Alt` + `Shift` + `Mouse Wheel Up/Down` | More precisely adjust the distance snapping multiplier when hovering over the playfield. |
+| `鼠标滚轮上/下滑动` | 按照当前细分的节拍向前/向后在歌曲中滚动。 |
+| `Shift` + `鼠标滚轮上/下滑动` | 按照当前细分的节拍×4倍向前/向后在歌曲中移动。 |
+| `Ctrl` + `鼠标滚轮上/下滑动` | 改编节拍细分。 |
+| `Alt` + `鼠标滚轮上/下滑动` | 更改间隔固定器在可作图空间的间隔倍率。 鼠标悬停在时间轴上时改编时间轴长度缩放。 |
+| `Alt` + `Shift` + `鼠标滚轮上/下滑动` | 鼠标悬停在可作图空间上更精确地调整间隔固定器的间隔倍率。 |
 
-### Compose
+### Compose模式
 
-#### Mouse
+#### 鼠标
 
-| Shortcut | Action |
+| 快捷键 | 效果 |
 | :--- | :--- |
-| `Right Click` | Toggle new combo \(when placing new hit objects\) or delete object \(when selecting\). |
+| `Right Click` | 使用新一组颜色 \(当在放置一个物件时\) 或者删除物件 \(当选择一个物件或鼠标悬停在一个物件上时\)。 |
 
-#### General
+#### 通用
 
-| Shortcut | Action |
+| 快捷键 | 作用 |
 | :--- | :--- |
-| `Alt` + `F4` or `Esc` | Return to song selection. |
-| `Ctrl` + `Z` | Undo. |
-| `Ctrl` + `Y` | Redo. |
-| `Ctrl` + `A` | Select all hit objects. |
-| `Ctrl` + `X` | Cut. |
-| `Ctrl` + `C` | Copy. |
-| `Ctrl` + `V` | Paste. |
-| `Ctrl` + `D` | Clone the selection. This will paste the selection 1 measure after last selected object. |
-| `Delete` | Delete. |
-| `1`, `2`, `3`, or `4` | Switch between placement/selection mode: select, circle, slider, and spinner respectively \(osu!standard, osu!taiko, or osu!catch\). |
-| `1`, `2`, or `3` | Switch between placement/selection mode: select, circle, and hold respectively \(osu!mania\). |
-| `Ctrl` + `Alt` + `Mouse Wheel Up/Down` | Switch between placement/selection modes. |
-| `Ctrl` + `Shift` + `A` | Open [AiMod](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Beatmap_Editor/AiMod). |
+| `Alt` + `F4` or `Esc` | 回到歌曲选择界面。 |
+| `Ctrl` + `Z` | 撤销操作。 |
+| `Ctrl` + `Y` | 重做操作。 |
+| `Ctrl` + `A` | 全选所有物件。 |
+| `Ctrl` + `X` | 剪切所选物件。 |
+| `Ctrl` + `C` | 复制所选物件。 |
+| `Ctrl` + `V` | 在离当前时间点最近的节拍细分处粘贴物件 |
+| `Ctrl` + `D` | 复制一段。这会复制前一步所选择的一段时间内的物件。 |
+| `Delete` | 删除。 |
+| `1`, `2`, `3`, or `4` | 分别在一下模式中切换: select，circle，slider，和 spinner \(osu!主模式，osu!taiko，或者 osu!catch\)。 |
+| `1`, `2`, or `3` | 分别在一下模式中切换:/selection mode: select, circle, and hold \(osu!mania\)。 |
+| `Ctrl` + `Alt` + `鼠标滚轮上/下滑动` | 在 placement/selection 模式中滚动选择。 |
+| `Ctrl` + `Shift` + `A` | 打开 [AiMod](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Beatmap_Editor/AiMod)。 |
 
-#### Playfield
+#### 可作图区域
 
-| Shortcut | Action |
+| 快捷键 | 作用 |
 | :--- | :--- |
-| `Alt` | Temporarily toggle [distance snap](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Beatmap_Editor/Distance_Snap) while held down. |
-| `Y` | Toggle distance snap. |
-| `Shift` | Temporarily toggle grid snap while held down. |
-| `T` | Toggle grid snap. |
-| `G` | Cycle through grid size. |
-| `Ctrl` + `1` | Set grid size to tiny. |
-| `Ctrl` + `2` | Set grid size to small. |
-| `Ctrl` + `3` | Set grid size to medium. |
-| `Ctrl` + `4` | Set grid size to large. |
-| `L` | Toggle locking of hit objects. |
+| `Alt` | 临时打开/关闭 [间隔固定器](https://github.com/Evisolpxe/OsuCNwiki/blob/master/wiki/Beatmap_Editor/Distance_Snap) 的状态。 |
+| `Y` | 打开/关闭间隔固定器。 |
+| `Shift` | 临时打开/关闭物件固定在格点的功能。 |
+| `T` | 打开/关闭物件固定在格点的功能。 |
+| `G` | 更改格点细分大小。 |
+| `Ctrl` + `1` | 把格点细分设置为极小。 |
+| `Ctrl` + `2` | 把格点细分设置为小。 |
+| `Ctrl` + `3` | 把格点细分设置为中。 |
+| `Ctrl` + `4` | 把格点细分设置为大。 |
+| `L` | 锁定物件的位置 |
 
-#### Object manipulation
+#### 物件操作
 
-| Shortcut | Action |
+| 快捷键 | 作用 |
 | :--- | :--- |
-| `Q` | Toggle new combo. |
-| `Ctrl` + `,` | Rotate the selection by 90 degrees anticlockwise. |
-| `Ctrl` + `.` | Rotate the selection by 90 degrees clockwise. |
-| `Ctrl` + `H` | Flip the selection horizontally. |
-| `Ctrl` + `J` | Flip the selection vertically. |
-| `Ctrl` + `G` | Reverse the selection. That is, move the first selected object to the last selected object and so on. |
-| `Ctrl` + `Shift` + `R` | Rotate the selected hit objects by a specified angle \(opens a dialog\). |
-| `Ctrl` + `Shift` + `S` | Scale selected hit objects by a specified amount \(opens a dialog\). |
-| `Ctrl` + `Shift` + `D` | Generate polygons with a specificied number of points \(opens a dialog\). |
-| `Ctrl` + `Shift` + `F` | Convert the selected slider into a hit circle stream \(opens a dialog\). |
-| `Ctrl` + `Left/Right/Up/Down Arrow` | Nudge the selected notes in the pressed direction. \(osu!standard, osu!taiko, osu!catch\) |
-| `Ctrl` + `Left/Right Arrow` | Move selected objects left or right one column. \(osu!mania\) |
-| `Ctrl` + `Up/Down Arrow` | Move selected objects up or down one tick in time. \(osu!mania\) |
+| `Q` | 使用新一组颜色。 |
+| `Ctrl` + `,` | 逆时针旋转所选物件90° |
+| `Ctrl` + `.` | 顺时针旋转所选物件90° |
+| `Ctrl` + `H` | 沿全区域中线水平翻转所选物件。 |
+| `Ctrl` + `J` | 沿全区域中线竖直翻转所选物件。 |
+| `Ctrl` + `G` | 时间上翻转所选时间段的物件。也就是，把选择的第一个物件移动到选择的最后一个物件上去，以此类推。 |
+| `Ctrl` + `Shift` + `R` | 以特定角度旋转所选物件 \(会打开一个对话框\). |
+| `Ctrl` + `Shift` + `S` | 以特定比例缩放所选物件 \(会打开一个对话框\). |
+| `Ctrl` + `Shift` + `D` | 以特定角度和比例创建多边形圆圈 \(会打开一个对话框\). |
+| `Ctrl` + `Shift` + `F` | 把滑条变成连打 \(会打开一个对话框\). |
+| `Ctrl` + `左/右/上/下 箭头` | 向左/右/上/下移动所选物件 \(osu!主模式, osu!taiko, osu!catch\) |
+| `Ctrl` + `左/右 箭头` | 向左/右边移动一轨所选物件 \(osu!mania\) |
+| `Ctrl` + `上/下 箭头` | 向上/下移动一格时间所选物件 \(osu!mania\) |
 
 #### Hitsounding
 
